@@ -16,7 +16,7 @@ class PepParsePipeline:
     def process_item(self, item, spider):
         self.count_status[item['status']] += 1
         return item
-    
+
     def close_spider(self, spider):
         file_path = self.results_directory / FILE.format(
             dt.now().strftime(DATETIME_FORMAT))
