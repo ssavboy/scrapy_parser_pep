@@ -28,4 +28,4 @@
 - Python 3.7
 - Scrappy 2.5.1
 
-## Автор: <a href='https://github.com/ssavboy'>Kirill Molchanov</a>
+## Автор [Kirill Molchanov](https://github.com/ssavboy)
