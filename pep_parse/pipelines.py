@@ -19,7 +19,7 @@ class PepParsePipeline:
 
     def close_spider(self, spider):
         file_path = self.results_directory / FILE.format(
-            dt.now().strftime(DATETIME_FORMAT))
+            time=dt.now().strftime(DATETIME_FORMAT))
         with open(file_path, 'w', encoding='utf-8') as f:
             csv.writer(
                 f, dialect=csv.unix_dialect, quoting=csv.QUOTE_MINIMAL
