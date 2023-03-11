@@ -2,6 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
 RESULTS_FOLDER = 'results'
+FILE = 'status_summary_{time}.csv'
 DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
 BOT_NAME = 'pep_parse'
 NEWSPIDER_MODULE = 'pep_parse.spiders'
